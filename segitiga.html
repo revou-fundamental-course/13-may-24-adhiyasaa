@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Katik</h1>
+        <h2>Kalkulator matematika ini dapat menghitung luas dan keliling segitiga!</h2>
+        <h3>by : Muhammad Adhiyasa Satya Putranto</h3>
+    </div>
+    <div class="container">
+        <h2></h2>
+        <form id="formSegitiga">
+            <img src="segitiga.jpg" alt="Triangle">
+            <label for="side1">Sisi 1 (cm):</label>
+            <input type="number" id="side1" name="side1" required>
+            <br>
+            <label for="side2">Sisi 2 (cm):</label>
+            <input type="number" id="side2" name="side2" required>
+            <br>
+            <label for="side3">Sisi 3 (cm):</label>
+            <input type="number" id="side3" name="side3" required>
+            <br>
+            <button type="submit">Hitung</button>
+        </form>
+        <div id="hasil"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
